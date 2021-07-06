@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Karla:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="descuentos">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+        <div class="azul">
+            <img src="img/logo.png" alt="Logo">
+            <p>Nombre Tienda</p>
+        </div>
+    </header>
+    <main>
+        <div class="formularioRegistro">
+            <form action="#">
+                <h1>Registro</h1>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido">
+                <br>
+                <input type="email" name="email" id="email" placeholder="Correo electrónico">
+                <br>
+                <input type="password" name="pass" id="pass" placeholder="Contraseña">
+                <br>
+                <select name="lista" id="listaPaises">
+                    <option disabled selected>País</option>
+                    <option value="arg">Argentina</option>
+                    <option value="col">Colombia</option>
+                    <option value="per">Perú</option>
+                    <option value="ven">Venezuela</option>
+                </select>
+                <div class="botones">
+                    <button type="reset" id="btnReset">Resetear</button>
+                    <button type="submit" id="btnSubmit">Registrar</button>
+                </div>
+                <br>
+                <p>¿Ya tenés una cuenta?<a href="index.html"> Ingresá</a></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
